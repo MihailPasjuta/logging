@@ -1,0 +1,33 @@
+{
+  "name": "logging",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist && parcel build ./index.html --public-url /logging",
+    "deploy": "gh-pages -d dist",
+    "start": "parcel ./index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MihailPasjuta/logging.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MihailPasjuta/logging/issues"
+  },
+  "homepage": "https://github.com/MihailPasjuta/logging#readme",
+  "dependencies": {
+    "email-validator": "^2.0.4",
+    "parcel": "^1.12.3",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-router-dom": "^5.0.1",
+    "react-transition-group": "^4.3.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}

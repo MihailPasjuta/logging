@@ -31,7 +31,7 @@ export default class Complete extends React.Component{
 				</defs>
 				</svg>	
 			</div>
-			<div className="welcome_back_react">Welcome back, <b>React</b></div>
+			<div className="welcome_back_react">Welcome back, React</div>
 			<NavLink  to="/">
 				<button className="btn_goToApp">
 					<span className="log">Go to App</span>

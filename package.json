@@ -21,7 +21,7 @@
   "homepage": "https://github.com/MihailPasjuta/logging#readme",
   "dependencies": {
     "email-validator": "^2.0.4",
-    "parcel": "^1.12.3",
+    "parcel": "^2.8.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-router-dom": "^5.0.1",
